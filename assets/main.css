@@ -35,3 +35,34 @@
     font-weight: 400;
     line-height: 25px;
 }
+
+.main-container .section-4{
+    margin-top: 35px;
+}
+
+
+.main-container .section-4__text-gride{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.main-container .grid__information{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;src: ;
+}
+
+.main-container .grid__information h2{
+    font-size: 2.8rem;
+    color: #927964;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.main-container .grid__information p{
+    font-size: 1rem;
+    font-weight: 400;
+}
