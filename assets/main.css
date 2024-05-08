@@ -1,7 +1,6 @@
 @import url("/assets/reset.css");
 
 .main-container{
-    border: 9px solid orange;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +11,7 @@
 .main-container .responsive-img{
     max-width: 100%;
     height: auto;
+    box-sizing: border-box;
 }
 
 
@@ -73,11 +73,51 @@
     margin: 25px 0 25px 0;
 }
 
+.main-container .section-5{
+    background-color: #FCFAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
 
+.main-container .section-5 h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 80px 0 45px 0 ;
+}
+
+.main-container .section-5 p{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.main-container  .section-6{
+    box-sizing: border-box;
+}
+.main-container  .section-6 h2{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 85px 0 85px 0;
+    font-weight: 500;   
+}
+.main-container  .section-6 p{
+    text-align: center;
+    margin: 25px 0 85px 0;
+    line-height: 23px;
+    font-weight: 500;
+   
+}
 /*mobile*/
 @media screen and (max-width:768px){
     .main-container{
         box-sizing: border-box;
+        max-width: 100%;
     }
     .main-container .section-4__text-gride{
         display: flex;
